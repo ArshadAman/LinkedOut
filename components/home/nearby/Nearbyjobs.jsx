@@ -31,7 +31,7 @@ const Nearbyjobs = () => {
           <Text>Something went wrong</Text>
         ):(
             data.data?.map((job)=>(
-              <NearbyJobCard job={job} key={job.job_id} handleNavigate={()=>router.push(`job-details/${job_id}`)} />
+              <NearbyJobCard job={job} key={job.job_id} handleNavigate={()=>router.push(`job-details/${job.job_id}`)} />
             ))
         )}
       </View>
