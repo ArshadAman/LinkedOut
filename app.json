@@ -5,6 +5,14 @@
       "bundler": "metro"
     },
     "name": "LinkedOut",
-    "slug": "LinkedOut"
+    "slug": "LinkedOut",
+    "extra": {
+      "eas": {
+        "projectId": "b02a706e-1eca-48e1-a7a0-9b43cf7a8c3c"
+      }
+    },
+    "android": {
+      "package": "com.mearshadaman.LinkedOut"
+    }
   }
 }
